@@ -1,0 +1,11 @@
+A description of the problem and a discussion of the background
+
+I live in Rome and I would like helping a friend that is a talented chef. He is able to cook differente kind of cousine, and his
+best talent is cooking meat. So he asked me to help him finding the best place in Rome wher opening a restaurant, and according his
+talent what is the best kind of restaurant.
+
+Of course I have to analyze how many restaurants there are in Rome , in each Municipio (Roma's Neighboor) and the cost for a rent
+a location in the area.
+So first of all I need a Dataset with the coordinates of the Municipi and I need also the distribution and the kind of restaurants 
+in Rome divided by Municipio. I am going to use the Foursquare API to create this dataset. I also need some info about the price of 
+a rent in each Municipio. Another constraint will be the distance from the city center, because near we get the place bettere is.
