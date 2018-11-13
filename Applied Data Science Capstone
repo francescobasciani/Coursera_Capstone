@@ -1,11 +1,35 @@
-A description of the problem and a discussion of the background
-
-I live in Rome and I would like helping a friend that is a talented chef. He is able to cook differente kind of cousine, and his
-best talent is cooking meat. So he asked me to help him finding the best place in Rome wher opening a restaurant, and according his
+INDEX :
+    1)Introduction 
+    2)Data 
+    3)Methodology 
+    4)Results 
+    5)Discussion 
+    6)Conclusion 
+    
+INTRODUCTION
+I live in Rome and I would like helping  my friend that is a talented chef to pen a restaurant. He is able to cook differente kind of cousine, and his
+best talent is cooking meat. So he asked me to help him finding the best place in Rome where opening a restaurant, and according his
 talent what is the best kind of restaurant.
 
-Of course I have to analyze how many restaurants there are in Rome , in each Municipio (Roma's Neighboor) and the cost for a rent
+So I have to analyze how many restaurants there are in Rome , in each Municipio (Roma's Neighboor) and the cost for a rent
 a location in the area.
 So first of all I need a Dataset with the coordinates of the Municipi and I need also the distribution and the kind of restaurants 
 in Rome divided by Municipio. I am going to use the Foursquare API to create this dataset. I also need some info about the price of 
-a rent in each Municipio. Another constraint will be the distance from the city center, because near we get the place bettere is.
+a rent in each Municipio. Another constraint will be the distance from the city center, because near we get the place bettere is,
+for the number of tourists.
+
+DATA
+I got the data of the MUNICIPI on an old dataset I had for a university's work, wherein there are information about the center in terms of 
+coordinates of each MUNICIPIO and the mean of the price for a rent at MQ.
+I used Foursquare API to get the information about the kind of restaurant.
+
+METHODOLOGY
+My idea is to create a vector associates to each MUNICIPIO wherein I rappresent the relative frequency of each restaurant's type.
+So I will subtract this frequency from 1 to get the opposite value, so I will able to create a vector with some value at 1 (the type of restaurant
+i would like to open, and 0 for the ones I don't care) and sum it two value (from 0 to 1) that rappresent the weigh of Price or DIstance
+in that MUNICIPIO.
+
+RESULT and CONCLUSION
+So after this analysis I get that if you want to open a Steakhouse the best place wherein open a restaurant should be the 11th MUNICIPIO.
+
+
