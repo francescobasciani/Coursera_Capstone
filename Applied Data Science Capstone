@@ -18,6 +18,8 @@ in Rome divided by Municipio. I am going to use the Foursquare API to create thi
 a rent in each Municipio. Another constraint will be the distance from the city center, because near we get the place bettere is,
 for the number of tourists.
 
+This model can be useful for who wants to know where open a restaurants.
+
 DATA
 I got the data of the MUNICIPI on an old dataset I had for a university's work, wherein there are information about the center in terms of 
 coordinates of each MUNICIPIO and the mean of the price for a rent at MQ.
